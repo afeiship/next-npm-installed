@@ -1,0 +1,28 @@
+{
+  "name": "next-npm-installed",
+  "version": "0.0.1",
+  "description": "Check if npm package installed",
+  "main": "dist/next-npm-installed.js",
+  "authors": [
+    "afei"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "next"
+  ],
+  "homepage": "https://github.com/afeiship/next-npm-installed",
+  "moduleType": [
+    "amd"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "build",
+    "src",
+    "gulp",
+    "gulpfile.js"
+  ]
+}
