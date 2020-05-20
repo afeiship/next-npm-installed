@@ -10,5 +10,6 @@ npm install -S @feizheng/next-npm-installed
 ```js
 import '@feizheng/next-npm-installed';
 
-//DOCS here!
+nx.npmInstalled('mocha');   // false
+nx.npmInstalled('gulp');    // true
 ```
