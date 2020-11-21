@@ -1,15 +1,15 @@
 /*!
- * name: @feizheng/next-npm-installed
+ * name: @jswork/next-npm-installed
  * description: Check if npm package installed.
  * homepage: https://github.com/afeiship/next-npm-installed
  * version: 1.0.0
- * date: 2020-05-20T11:01:10.905Z
+ * date: 2020-11-21 10:47:12
  * license: MIT
  */
 
 (function () {
   var global = global || this || window || Function('return this')();
-  var nx = global.nx || require('@feizheng/next-js-core2');
+  var nx = global.nx || require('@jswork/next');
 
   nx.npmInstalled = function (inName) {
     try {
@@ -24,5 +24,3 @@
     module.exports = nx.npmInstalled;
   }
 })();
-
-//# sourceMappingURL=next-npm-installed.js.map
