@@ -3,7 +3,7 @@
  * description: Check if npm package installed.
  * homepage: https://github.com/afeiship/next-npm-installed
  * version: 1.0.0
- * date: 2020-11-21 10:47:12
+ * date: 2020-11-21 10:53:05
  * license: MIT
  */
 
